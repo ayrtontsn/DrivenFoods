@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driven Foods</title>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="topo">
+        <div class="titulo">
+            <h1>Driven Eats</h1>
+            <h2>Sua comida em 6 minutos</h2>
+        </div>
+    </div>
+    <div class="conteudo">
+        <h3>Primeiro, seu prato</h3>
+        <div class="pratos">
+            <div class="carta" onclick="comida(this)">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/pf_calabresa.png"/>
+                <div class="info">
+                    <div class="cab">
+                        <div class="nome">Calabresa</div>
+                        <div class="ion">
+                            <ion-icon class="escondido nvl1" name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="descricao">Acompanha arroz, feijão e batata.</div>
+                    <div class="preco">R$ <p>14,00</p></div>
+                </div>
+            </div>
+            <div class="carta" onclick="comida(this)">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/pf_carne.jpg"/>
+                <div class="info">
+                    <div class="cab">
+                        <div class="nome">Carne</div>
+                        <div class="ion">
+                            <ion-icon class="escondido nvl1" name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="descricao">Acompanha arroz, feijão, batata e salada .</div>
+                    <div class="preco">R$ <p>14,99</p></div>
+                </div>
+            </div>
+            <div class="carta" onclick="comida(this)">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/pf_frango.jpg"/>
+                <div class="info">
+                    <div class="cab">
+                        <div class="nome">Frango</div>
+                        <div class="ion">
+                            <ion-icon class="escondido nvl1" name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="descricao">Acompanha arroz, feijão e salada.</div>
+                    <div class="preco">R$ <p>14,50</p></div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <h3>Agora, sua bebida</h3>
+
+        <div class="bebidas">
+            <div class="carta" onclick="bebida(this)">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/coca.png"/>
+                <div class="info">
+                    <div class="cab">
+                        <div class="nome">Coca-Cola gelada</div>
+                        <div class="ion">
+                            <ion-icon class="escondido nvl1" name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="descricao">Lata 350ml.</div>
+                    <div class="preco">R$<p>5,00</p></div>
+                </div>
+            </div>
+            <div class="carta" onclick="bebida(this)">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/fanta.png"/>
+                <div class="info">
+                    <div class="cab">
+                        <div class="nome">Fanta Laranja</div>
+                        <div class="ion">
+                            <ion-icon class="escondido nvl1" name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="descricao">Lata 350ml.</div>
+                    <div class="preco">R$<p>4,50</p></div>
+                </div>
+            </div>
+            <div class="carta" onclick="bebida(this)">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/suco.png"/>
+                <div class="info">
+                    <div class="cab">
+                        <div class="nome">Suco de laranja</div>
+                        <div class="ion">
+                            <ion-icon class="escondido nvl1" name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="descricao">Garrafa de suco de fruta 250ml.</div>
+                    <div class="preco">R$<p>6,00</p></div>
+                </div>
+            </div>
+        </div>
+        <h3>Por fim, sua sobremesa</h3>
+        <div class="sobremesa">
+            <div class="carta" onclick="sobremesa(this)">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/brownie.jpg"/>
+                <div class="info">
+                    <div class="cab">
+                        <div class="nome">Brownie</div>
+                        <div class="ion">
+                            <ion-icon class="escondido nvl1" name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="descricao">Brownie de chocolate.</div>
+                    <div class="preco">R$ <p>8,00</p></div>
+                </div>
+            </div>
+            <div class="carta" onclick="sobremesa(this)">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/mouse.jpg"/>
+                <div class="info">
+                    <div class="cab">
+                        <div class="nome">Mousse</div>
+                        <div class="ion">
+                            <ion-icon class="escondido nvl1" name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="descricao">Mousse de maracujá.</div>
+                    <div class="preco">R$ <p>9,00</p></div>
+                </div>
+            </div>
+            <div class="carta" onclick="sobremesa(this)">
+                <img src="projeto__driven-eats__imagens/projeto__driven-eats__imagens/pudim.jpg"/>
+                <div class="info">
+                    <div class="cab">
+                        <div class="nome">Pudim</div>
+                        <div class="ion">
+                            <ion-icon class="escondido nvl1" name="checkmark-circle"></ion-icon>
+                        </div>
+                    </div>
+                    <div class="descricao">Pudim de limão.</div>
+                    <div class="preco">R$ <p>7,00</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fundo">
+        <div class="concluir" onclick="concluir()">
+            <h5>Selecione os 3 itens para fechar o pedido</h5>
+        </div>
+    </div>
+    <div class="mascara escondido">
+        <div class="pedir">
+            <h6 class="cabeca">Confirme seu pedido</h6>
+
+            <div class="pedidocomida pedidos">
+                <div class="pedido">comida</div>
+                <div class="Preco">Preço</div>
+            </div>
+            <div class="pedidobebida pedidos">
+                <div class="pedido">bebida</div>
+                <div class="Preco">Preço</div>
+            </div>
+            <div class="pedidosobremesa pedidos">
+                <div class="pedido">sobremesa</div>
+                <div class="Preco">Preço</div>
+            </div>
+            <div class="totalpedidos">
+                <div class="total">TOTAL</div>
+                <div class="Ptotal">Preço</div>
+            </div>
+
+            <div class="confirmar" onclick="pedir(this)">
+                <h6 class="chamar">Tudo certo, pode pedir</h6>
+            </div>
+            <div class="cancelar" onclick="pedir(this)">
+                <h6 class="chamar">Cancelar</h6>
+            </div>
+
+        </div>
+    </div>
+    </div>
+    <script src="scripts.js"></script>
+    <script
+    type="module"
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+  ></script>
+</body>
+</html>
